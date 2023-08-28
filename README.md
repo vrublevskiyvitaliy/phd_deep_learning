@@ -26,6 +26,12 @@ pip install notebook
 Install conda
 https://docs.conda.io/en/latest/miniconda.html
 
+
+Install conda to jupinter:
+```
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=env
+```
 # Running
 
 Run jupyter:
@@ -51,4 +57,3 @@ conda deactivate
 ```
 
 # TODO:
-* Data analysis similar to https://www.kaggle.com/code/anokas/data-analysis-xgboost-starter-0-35460-lb
