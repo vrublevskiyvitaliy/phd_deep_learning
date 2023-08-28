@@ -22,3 +22,19 @@ source env/bin/activate
 # Deactivate env
 deactivate
 ```
+
+Huggingface:
+```
+pip install datasets
+
+```
+
+Jupiter:
+```
+pip install jupyter
+```
+
+Save all requirements:
+```
+pip3 freeze > requirements.txt
+```
