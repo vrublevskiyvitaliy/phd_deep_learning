@@ -56,5 +56,18 @@ conda activate env
 conda deactivate
 ```
 
+Create pull request:
+```
+git checkout -b test_branch
+...
+git commit -am"Test"
+git push --set-upstream origin test_branch
+git checkout master
+...
+Merge resolved
+...
+git pull
+git branch -d test_branch
+```
+
 # TODO:
-* Test the pull request
