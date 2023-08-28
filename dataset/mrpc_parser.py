@@ -1,4 +1,4 @@
-class MSRParser:
+class MRPCParser:
   def __init__(self, location_folder):
     self.location_folder = location_folder
     self.__parse_data()
@@ -7,8 +7,8 @@ class MSRParser:
     """
     Load and parse the MSRP dataset.
     """
-    train_location = self.location_folder + '/msr_paraphrase_train.txt'
-    test_location = self.location_folder + '/msr_paraphrase_test.txt'
+    train_location = self.location_folder + '/train.txt'
+    test_location = self.location_folder + '/test.txt'
 
     self.test_data = self.__parse_file(test_location)
     self.train_data = self.__parse_file(train_location)

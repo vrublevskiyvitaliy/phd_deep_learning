@@ -1,7 +1,7 @@
-from dataset.mspr_parser import MSRParser
+from dataset.mrpc_parser import MRPCParser
 
 def main():
-    parser = MSRParser('dataset/raw_data/mspr')
+    parser = MRPCParser('dataset/raw_data/mrpc')
     train_data = parser.train_data
     train_data_count = len(train_data)
     print(f"Number of test pairs is {train_data_count}")

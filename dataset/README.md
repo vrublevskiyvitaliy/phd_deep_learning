@@ -1,5 +1,5 @@
-To download the MSPR corpus do:
+To download the MRPC corpus do:
 
 ```
-python3 download_mspr.py
+python3 download_mrpc.py
 ```
